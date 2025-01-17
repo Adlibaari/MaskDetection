@@ -3,7 +3,7 @@
 Proyek ini bertujuan untuk mengembangkan sistem deteksi objek yang mampu mengidentifikasi orang yang memakai masker dan yang tidak memakai masker secara real-time. Sistem ini dirancang untuk mendukung upaya pengawasan dan penegakan protokol kesehatan, terutama dalam situasi pandemi atau di area dengan risiko penyebaran penyakit yang tinggi. 
 
 ## Dataset
-Dataset didapatkan dari gabungan dataset [Roboflow Mask Wearing iOS Computer Vision Project](https://universe.roboflow.com/mohamed-traore-2ekkp/roboflow-mask-wearing-ios/dataset/16) yang memiliki gambar pemakaian masker yang bervariasi. Persebaran data yang digunakan adalah sebagai berikut:  
+Dataset didapatkan dari dataset [Roboflow Mask Wearing iOS Computer Vision Project](https://universe.roboflow.com/mohamed-traore-2ekkp/roboflow-mask-wearing-ios/dataset/16) yang memiliki gambar pemakaian masker yang bervariasi. Persebaran data yang digunakan adalah sebagai berikut:  
 | Folder  | Image Count | 
 | ------------- | ------------- |
 | Train  | 2475 | 
