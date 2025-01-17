@@ -60,7 +60,6 @@ def infer_on_video(model, pose, filename, output, stride, start_frame=5):
                 path = result.path
 
         # Counting logic
-        # Counting logic
         for box in result.boxes:
             if box.id is not None:  # Only process valid boxes
                 track_id = int(box.id)
