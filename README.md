@@ -21,8 +21,8 @@ Proyek ini menggunakan model YOLOv11 sebagai algoritma deteksi objek utama, yang
 - Torchaudio 2.5.1
 - Ultralytics 8.3.39
 
-### Hyper-parameter Tuning
-Hyper-parameter tuning dilakukan dengan menggunakan fungsi model.tune yang disediakan pada library ultralytics untuk mencari learning rate yang terbaik. Tuning dilakukan sebanyak 25 iterasi dengan masing-masing iterasi dijalankan selama 100 epoch.
+### Interpolated Detection
+Interpolasi deteksi pada frame berikutnya adalah teknik yang memanfaatkan estimasi posisi atau status objek dari frame sebelumnya untuk memprediksi keberadaannya di frame berikutnya tanpa perlu menjalankan inferensi langsung pada frame tersebut. Dengan pendekatan ini, model tidak perlu melakukan deteksi pada setiap frame secara terus-menerus, sehingga dapat mengurangi beban komputasi secara signifikan.
 
 ### Metrik Evaluasi
 ![results](https://github.com/user-attachments/assets/327d332a-e1cd-4dbd-89cb-78fa7e6cf0da)
