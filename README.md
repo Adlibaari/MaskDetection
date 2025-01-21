@@ -11,7 +11,7 @@ Dataset didapatkan dari dataset [Roboflow Mask Wearing iOS Computer Vision Proje
 | Test | 369 |
 
 ## Model 
-Proyek ini menggunakan model YOLOv11 sebagai algoritma deteksi objek utama, yang telah diimplementasikan dengan melakukan hyperparameter tuning untuk mengoptimalkan performa deteksi.
+Proyek ini menggunakan model YOLOv11 sebagai algoritma deteksi objek utama, yang telah diimplementasikan dengan melakukan Interpolated Detection untuk mengoptimalkan performa deteksi.
 
 ### Environment
 - Quadro RTX 5000
